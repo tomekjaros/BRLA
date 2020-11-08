@@ -1,1 +1,10 @@
-<p>contact works!</p>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    People
+  </div>
+  <ul class="list-group list-group-flush">
+    <li *ngFor="let person of people" class="list-group-item">
+      {{ person.firstName }} <b>{{ person.lastName }}</b>
+    </li>
+  </ul>
+</div>
