@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { TodoListComponent } from './component/todo-list/todo-list.component';
+import { TodoItemComponent } from './component/todo-item/todo-item.component';
+import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -14,6 +17,9 @@ import { ContactComponent } from './component/contact/contact.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+    TodoListComponent,
+    TodoItemComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

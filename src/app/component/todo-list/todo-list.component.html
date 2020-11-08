@@ -1,0 +1,6 @@
+<div  class="border border-dark">
+<app-todo-item  *ngFor="let todo of todos" [todoItem]="todo"
+               (onChange)="showAlert()"
+></app-todo-item>
+</div>
+
